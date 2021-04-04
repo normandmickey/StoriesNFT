@@ -2,6 +2,8 @@ import Web3 from 'web3';
 
 import StoriesNFT from '../abis/StoriesNFT.json';
 
+
+
 const state = {
     walletAddress: '',
     storiesBlockchain: null,

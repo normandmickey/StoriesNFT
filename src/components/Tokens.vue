@@ -6,8 +6,9 @@
       <div class="col-sm-6 col-md-3 col-lg-2" v-bind:key="token.tokenId" v-for="token of this.data">
         <div class="card mb-3">
           <div class="card-body">
-            <a v-bind:href="'https://storageapi.fleek.co/ysongh-team-bucket/'+ token.tokenURI" target="_blank" rel="noopener noreferrer">Token #{{token.tokenId}}</a>
-          </div>
+            <a v-bind:href="'https://storageapi.fleek.co/normandmickey-team-bucket/'+ token.tokenURI" target="_blank" rel="noopener noreferrer">Token #{{token.tokenId}}</a>
+            <p> {{token.tokenURI}}</p>      
+         </div>
         </div>
       </div>
     </div>
